@@ -1,0 +1,40 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container for the icons */
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* space between icons */
+    margin-top: 50px;
+}
+
+/* Style for each link */
+.icon-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for the links */
+.icon-link:hover {
+    background-color: #ff6600;
+    color: white;
+}
+
+/* Icon size customization */
+.icon-link i {
+    font-size: 24px;
+}

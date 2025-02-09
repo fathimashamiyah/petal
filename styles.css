@@ -1,0 +1,270 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 2px solid #e4e4e4;
+  }
+  
+  header .logo {
+    font-size: 2rem;
+    color: #e91e63;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 50px;
+    text-align: center;
+    font-size: medium;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  header .cta {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  header .cta:hover {
+    background-color: #c2185b;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: url('images/hero-background.jpg') center center/cover no-repeat;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  #hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  #hero h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  #hero .cta {
+    background-color: #fff;
+    color: #e91e63;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #hero .cta:hover {
+    background-color: #f1f1f1;
+    color: #d81b60;
+  }
+  
+  /* Featured Flowers Section */
+  #featured {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  
+  #featured h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  
+  .featured-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .featured-item {
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  
+  .featured-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .featured-item h3 {
+    margin: 15px 0;
+    font-size: 1.8rem;
+  }
+  
+  .featured-item p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .featured-item .cta {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .featured-item .cta:hover {
+    background-color: #c2185b;
+  }
+  
+  /* Why Choose Us Section */
+  #why-choose-us {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+  }
+  
+  #why-choose-us h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  
+  .benefits {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .benefit {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  
+  .benefit img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .benefit h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .benefit p {
+    font-size: 1rem;
+  }
+  
+  /* Testimonials Section */
+  #testimonials {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  
+  #testimonials h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  
+  .testimonial {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .testimonial p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p:last-child {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  footer p {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
